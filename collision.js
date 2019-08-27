@@ -1,5 +1,5 @@
 function createEnemy() {
-    let speed = Math.floor(Math.random() * 10) + 5;
+    let speed = Math.floor(Math.random() * 12) + 5;
     let thisY = Math.floor(Math.random() * 500);
     let enemy = new Enemy(980, thisY, speed, 'enemy.png');
 
