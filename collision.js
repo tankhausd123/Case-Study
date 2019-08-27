@@ -23,7 +23,7 @@ function createEnemy() {
 
 }
 function creatMultipleEnemy() {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 7; i++) {
         createEnemy();
     }
 }
